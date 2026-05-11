@@ -5,7 +5,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 const LINKS = [
   { label: "About", href: "#about" },
-  { label: "Old Vs New", href: "#old-vs-new" },
+  { label: "Old vs. New", href: "#old-vs-new" },
   { label: "Gallery", href: "#gallery" },
   { label: "Applications", href: "#applications" },
 ];
