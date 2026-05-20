@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
 :root {
+  /* Landing page stays light regardless of OS dark mode */
   --background: #ffffff;
   --foreground: #171717;
+  color-scheme: only light;
 }
 
 @theme inline {
@@ -12,15 +14,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-space-grotesk), sans-serif;
 }

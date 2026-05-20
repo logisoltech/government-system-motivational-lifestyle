@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const LINKS = [
-  { label: "About", href: "#about" },
-  { label: "Old vs. New", href: "#old-vs-new" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "Applications", href: "#applications" },
+  { label: "Solution", href: "#about" },
+  { label: "Old vs New", href: "#old-vs-new" },
+  { label: "Voting system", href: "#voting-system" },
+  { label: "Hi-tech & apps", href: "#hi-tech" },
 ];
 
 export default function Nav() {
@@ -91,12 +91,12 @@ export default function Nav() {
 
       {/* Desktop pill nav */}
       <nav
-        className="absolute left-1/2 top-8 z-30 hidden -translate-x-1/2 rounded-full border border-white/10 bg-black/40 px-20 py-3 shadow-lg backdrop-blur-md sm:block"
+        className="absolute left-1/2 top-8 z-30 hidden w-max max-w-[calc(100vw-10rem)] -translate-x-1/2 rounded-full border border-white/10 bg-black/40 px-4 py-2 shadow-lg backdrop-blur-md sm:block sm:px-5 sm:py-2.5"
         aria-label="Primary"
         data-aos="fade-down"
         data-aos-delay="150"
       >
-        <ul className="flex items-center justify-center gap-x-14">
+        <ul className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1.5 md:gap-x-4 lg:gap-x-5">
           {LINKS.map(({ label, href }) => (
             <li key={href}>
               <a

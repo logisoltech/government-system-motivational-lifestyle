@@ -2,8 +2,11 @@ import Image from "next/image";
 
 export default function FlyerDesignSection({ title, imageSrc, imageAlt, sectionId }) {
   return (
-    <section id={sectionId} className="w-full bg-white px-4 pb-12 pt-4 sm:px-6 md:px-8 md:pb-16">
-      <h2 className="mb-7 text-center text-3xl font-extrabold uppercase leading-none text-black sm:mb-9 sm:text-[2.15rem]">
+    <section
+      id={sectionId}
+      className="w-full scroll-mt-24 border-y border-neutral-100 bg-white px-4 pb-12 pt-10 sm:px-6 sm:pt-12 md:px-8 md:pb-16"
+    >
+      <h2 className="mb-7 text-center text-3xl font-extrabold uppercase leading-none text-neutral-900 sm:mb-9 sm:text-[2.15rem]">
         {title}
       </h2>
 

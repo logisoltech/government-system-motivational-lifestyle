@@ -67,7 +67,10 @@ export default function Hero() {
   }, [openPanel]);
 
   return (
-    <section className="relative flex min-h-screen w-full flex-col overflow-hidden">
+    <section
+      id="home"
+      className="relative flex min-h-screen w-full flex-col overflow-hidden scroll-mt-24"
+    >
       <Image
         src="/gov-hero.png"
         alt=""
@@ -87,7 +90,7 @@ export default function Hero() {
 
       <a
         href="/"
-        className="absolute left-5 top-5 z-30 sm:left-8 sm:top-8"
+        className="absolute left-4 top-4 z-30 sm:left-6 sm:top-6 lg:left-8 lg:top-8"
         aria-label="Home"
         data-aos="fade-right"
         data-aos-delay="80"
@@ -95,21 +98,21 @@ export default function Hero() {
         <Image
           src="/logo.png"
           alt="Motivational Lifestyle"
-          width={400}
-          height={130}
-          className="h-12 w-auto drop-shadow-md sm:h-15 md:h-16 lg:h-[3.6rem]"
+          width={840}
+          height={273}
+          className="h-14 w-auto drop-shadow-[0_4px_24px_rgba(0,0,0,0.45)] sm:h-16 md:h-[4.25rem] lg:h-20 xl:h-24"
           priority
         />
       </a>
 
       <Nav />
 
-      {/* Mobile: centered. md+: block aligned left */}
-      <div className="relative z-20 flex flex-1 flex-col items-center justify-center px-4 pb-8 pt-28 text-center sm:px-6 sm:pb-10 sm:pt-32 md:items-start md:justify-center md:pl-8 md:pt-34 md:text-left lg:pl-12 xl:pl-16">
-        <div className="flex w-full max-w-sm flex-col items-center md:mr-auto md:max-w-[min(24rem,calc(100%-1rem))] md:items-start lg:max-w-100">
-          <div className="flex w-full flex-col items-center justify-center gap-7 sm:gap-6 md:flex-row md:justify-start md:gap-4 lg:gap-5">
+      {/* Coin + buttons centered horizontally on all breakpoints */}
+      <div className="relative z-20 flex flex-1 flex-col items-center justify-center px-4 pb-8 pt-28 text-center sm:px-6 sm:pb-10 sm:pt-32">
+        <div className="flex w-full max-w-5xl flex-col items-center px-2 sm:px-4">
+          <div className="flex w-full flex-col items-center justify-center gap-8 sm:gap-7 md:flex-row md:items-center md:justify-center md:gap-6 lg:gap-10 xl:gap-14">
             <div
-              className="order-2 flex w-full max-w-44 flex-col gap-3 sm:max-w-none sm:gap-3.5 md:order-1 md:max-w-40 md:items-start"
+              className="order-2 flex w-full max-w-44 flex-col gap-3 sm:max-w-none sm:gap-3.5 md:order-1 md:max-w-44 md:items-end"
               data-aos="fade-right"
               data-aos-delay="120"
             >
@@ -136,7 +139,7 @@ export default function Hero() {
             </div>
 
             <div
-              className="relative order-1 aspect-square w-[min(70vw,14.5rem)] shrink-0 sm:w-56 md:order-2 md:w-36 lg:w-44"
+              className="relative order-1 aspect-square w-[min(64vw,14rem)] shrink-0 sm:w-[13.75rem] md:w-[14rem] lg:w-[15rem] xl:w-[16.5rem]"
               data-aos="zoom-in"
               data-aos-delay="100"
             >
@@ -144,14 +147,14 @@ export default function Hero() {
                 src="/silvercoin.png"
                 alt="Motivational Lifestyle coin"
                 fill
-                className="object-contain drop-shadow-[0_6px_28px_rgba(0,0,0,0.5)]"
-                sizes="(max-width: 768px) 70vw, 176px"
+                className="object-contain drop-shadow-[0_8px_36px_rgba(0,0,0,0.55)]"
+                sizes="(max-width: 640px) 64vw, (max-width: 1024px) 226px, 264px"
                 priority
               />
             </div>
 
             <div
-              className="order-3 flex w-full max-w-44 flex-col gap-3 sm:max-w-none sm:gap-3.5 md:max-w-40 md:items-start"
+              className="order-3 flex w-full max-w-44 flex-col gap-3 sm:max-w-none sm:gap-3.5 md:max-w-44 md:items-start"
               data-aos="fade-left"
               data-aos-delay="120"
             >
@@ -179,14 +182,14 @@ export default function Hero() {
           </div>
 
           <p
-            className="mt-8 max-w-80 text-xs font-normal leading-relaxed text-white/95 drop-shadow-[0_2px_12px_rgba(0,0,0,0.75)] sm:mt-9 sm:max-w-md sm:text-sm md:mt-7 md:max-w-xl md:text-[0.88rem] lg:max-w-2xl lg:text-[0.92rem]"
+            className="mt-10 max-w-72 text-xs font-normal leading-relaxed text-white/95 drop-shadow-[0_2px_12px_rgba(0,0,0,0.75)] sm:mt-9 sm:max-w-sm sm:text-sm md:max-w-md md:text-[0.88rem] lg:max-w-lg lg:text-[0.92rem]"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Crypto based on real value – self-sufficiency or true freedom, hi-tech
-            intelligent products, healthy foods &amp; lifestyles, and finally good
-            efficient fair government not useless rare metals like gold based on
-            rareness.
+            CRYPTO/GOVERNMENT BASED ON REAL VALUE – SELF SUFFICIENCY – TRUE FREEDOM, HI-TECH
+            INTELLIGENT PRODUCTS, HEALTHY FOODS &amp; LIFESTYLES, AND FINALLY GOOD, EFFICIENT FAIR GOVERNMENT
+            AND VOTING PROCESS — NOT USELESS RARE METALS LIKE GOLD BASED ONLY ON RARITY. USING STABLE VALUABLE
+            MD CURRENCY FOR PURCHASING &amp; SELLING POWER.
           </p>
         </div>
       </div>
