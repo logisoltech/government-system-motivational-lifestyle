@@ -10,6 +10,16 @@ const LINKS = [
   { label: "Hi-tech & apps", href: "#hi-tech" },
 ];
 
+const ACTIONS = [
+  { label: "Invest / Donate", href: "#", variant: "solid" },
+  { label: "Buy M.D Crypto", href: "#", variant: "outline" },
+];
+
+const ACTION_SOLID =
+  "inline-flex items-center justify-center whitespace-nowrap rounded-full bg-[#d4af37] px-4 py-2 text-xs font-bold tracking-wide text-black shadow-lg transition hover:bg-[#e2bf49] lg:px-5 lg:text-sm";
+const ACTION_OUTLINE =
+  "inline-flex items-center justify-center whitespace-nowrap rounded-full border border-[#d4af37]/70 bg-black/40 px-4 py-2 text-xs font-bold tracking-wide text-[#f0d786] shadow-lg backdrop-blur-md transition hover:border-[#d4af37] hover:bg-black/55 lg:px-5 lg:text-sm";
+
 export default function Nav() {
   const [open, setOpen] = useState(false);
 
@@ -87,6 +97,19 @@ export default function Nav() {
             </li>
           ))}
         </ul>
+
+        <div className="mt-10 flex flex-col items-center gap-3">
+          {ACTIONS.map(({ label, href, variant }) => (
+            <a
+              key={label}
+              href={href}
+              onClick={() => setOpen(false)}
+              className={variant === "solid" ? ACTION_SOLID : ACTION_OUTLINE}
+            >
+              {label}
+            </a>
+          ))}
+        </div>
       </div>
 
       {/* Desktop pill nav */}
@@ -110,6 +133,23 @@ export default function Nav() {
           ))}
         </ul>
       </nav>
+
+      {/* Right-side action buttons (desktop) */}
+      <div
+        className="absolute right-6 top-8 z-30 hidden items-center gap-2.5 sm:flex lg:right-8"
+        data-aos="fade-down"
+        data-aos-delay="180"
+      >
+        {ACTIONS.map(({ label, href, variant }) => (
+          <a
+            key={label}
+            href={href}
+            className={variant === "solid" ? ACTION_SOLID : ACTION_OUTLINE}
+          >
+            {label}
+          </a>
+        ))}
+      </div>
     </>
   );
 }
