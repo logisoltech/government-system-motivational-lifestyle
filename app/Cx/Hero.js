@@ -186,7 +186,7 @@ export default function Hero() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            CRYPTO/GOVERNMENT BASED ON REAL VALUE – SELF SUFFICIENCY – TRUE FREEDOM, HI-TECH
+            PURSUIT OF HAPPINESS IS SELF-SUFFICIENCY — M.D. – TRUE FREEDOM, HI-TECH
             INTELLIGENT PRODUCTS, HEALTHY FOODS &amp; LIFESTYLES, AND FINALLY GOOD, EFFICIENT FAIR GOVERNMENT
             AND VOTING PROCESS — NOT USELESS RARE METALS LIKE GOLD BASED ONLY ON RARITY. USING STABLE VALUABLE
             MD CURRENCY FOR PURCHASING &amp; SELLING POWER.
@@ -278,6 +278,10 @@ export default function Hero() {
                 At the time of the Roman Empire emperors who weren&apos;t sure about their
                 decision on a special issue allowed a plebiscite which allowed everyone
                 to vote on the issue.
+              </p>
+              <p>
+                Fair taxes that work for the people, and a strong military to protect
+                the nation and keep our future secure.
               </p>
             </div>
           ) : (

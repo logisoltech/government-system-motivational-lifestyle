@@ -41,6 +41,12 @@ export default function GovernmentTechSection() {
           <p className="font-sans text-[clamp(0.875rem,2.2vw,1.125rem)] font-bold uppercase leading-snug tracking-wide">
             We Have Airplanes, Cars, and Wireless Communications, Not a Horse and Buggy.
           </p>
+          <p className="mt-3 font-sans text-[clamp(0.75rem,1.8vw,0.95rem)] font-bold uppercase leading-snug tracking-wide sm:mt-4">
+            There Is Nothing More Fair and Promotes Equality More Than Products That Do It All for You.
+          </p>
+          <p className="mt-3 font-sans text-[clamp(0.75rem,1.8vw,0.95rem)] font-bold uppercase leading-snug tracking-wide sm:mt-4">
+            A Stable, Valuable M.D. Currency Means Real Purchasing &amp; Selling Power.
+          </p>
         </div>
 
         {/* Speech section */}
