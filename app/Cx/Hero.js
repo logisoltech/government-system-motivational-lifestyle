@@ -139,18 +139,26 @@ export default function Hero() {
             </div>
 
             <div
-              className="relative order-1 aspect-square w-[min(64vw,14rem)] shrink-0 sm:w-[13.75rem] md:w-[14rem] lg:w-[15rem] xl:w-[16.5rem]"
+              className="order-1 flex w-[min(92vw,28rem)] shrink-0 flex-col items-center gap-2 sm:w-[26rem] lg:w-[28rem]"
               data-aos="zoom-in"
               data-aos-delay="100"
             >
-              <Image
-                src="/silvercoin.png"
-                alt="Motivational Lifestyle coin"
-                fill
-                className="object-contain drop-shadow-[0_8px_36px_rgba(0,0,0,0.55)]"
-                sizes="(max-width: 640px) 64vw, (max-width: 1024px) 226px, 264px"
-                priority
-              />
+              <p className="md-crypto-shine text-center text-lg font-bold tracking-wide sm:text-xl lg:text-2xl xl:text-3xl">
+                M.D Crypto
+              </p>
+              <div className="relative aspect-square w-[min(64vw,14rem)] sm:w-[13.75rem] md:w-[14rem] lg:w-[15rem] xl:w-[16.5rem]">
+                <Image
+                  src="/silvercoin.png"
+                  alt="Motivational Lifestyle coin"
+                  fill
+                  className="object-contain drop-shadow-[0_8px_36px_rgba(0,0,0,0.55)]"
+                  sizes="(max-width: 640px) 64vw, (max-width: 1024px) 226px, 264px"
+                  priority
+                />
+              </div>
+              <p className="md-crypto-shine w-[min(92vw,28rem)] max-w-none text-center text-sm font-bold uppercase leading-snug tracking-wide sm:w-[26rem] sm:text-base lg:w-[28rem] lg:text-lg">
+                Using Stable Valuable MD Currency. MD Products for Purchasing &amp; Selling Power
+              </p>
             </div>
 
             <div
@@ -186,7 +194,7 @@ export default function Hero() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            PURSUIT OF HAPPINESS IS SELF-SUFFICIENCY — M.D. – TRUE FREEDOM, HI-TECH
+            TRUE FREEDOM, HI-TECH
             INTELLIGENT PRODUCTS, HEALTHY FOODS &amp; LIFESTYLES, AND FINALLY GOOD, EFFICIENT FAIR GOVERNMENT
             AND VOTING PROCESS — NOT USELESS RARE METALS LIKE GOLD BASED ONLY ON RARITY. USING STABLE VALUABLE
             MD CURRENCY FOR PURCHASING &amp; SELLING POWER.
