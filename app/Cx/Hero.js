@@ -144,7 +144,7 @@ export default function Hero() {
               data-aos-delay="100"
             >
               <p className="md-crypto-shine text-center text-lg font-bold tracking-wide sm:text-xl lg:text-2xl xl:text-3xl">
-                M.D Crypto
+                M.D Lifestyle <br/>Crypto
               </p>
               <div className="relative aspect-square w-[min(64vw,14rem)] sm:w-[13.75rem] md:w-[14rem] lg:w-[15rem] xl:w-[16.5rem]">
                 <Image
