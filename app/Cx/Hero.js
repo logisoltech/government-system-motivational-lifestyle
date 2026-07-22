@@ -100,7 +100,7 @@ export default function Hero() {
           alt="Motivational Lifestyle"
           width={840}
           height={273}
-          className="h-14 w-auto drop-shadow-[0_4px_24px_rgba(0,0,0,0.45)] sm:h-16 md:h-[4.25rem] lg:h-20 xl:h-24"
+          className="h-16 w-auto drop-shadow-[0_4px_24px_rgba(0,0,0,0.45)] sm:h-[4.5rem] md:h-20 lg:h-24 xl:h-28"
           priority
         />
       </a>
