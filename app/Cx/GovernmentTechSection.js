@@ -54,8 +54,8 @@ export default function GovernmentTechSection() {
 
         {/* Speech section */}
         <div className="mt-6 flex max-w-5xl flex-col items-center gap-1.5 sm:mt-7 sm:gap-2">
-          <p className="font-sans text-[clamp(1.1rem,2.8vw,1.75rem)] font-bold uppercase leading-tight tracking-tight">
-            Fair Taxes and Strong Military at End.
+          <p className="w-full max-w-5xl font-sans text-[clamp(0.38rem,1.75vw,1.05rem)] font-bold uppercase leading-tight tracking-tight whitespace-nowrap">
+            Fair Taxes, Intelligent Multi Functional Products and Good Govt. Which Leads to a Strong Currency.
           </p>
           <p className="mt-1 font-sans text-[clamp(0.75rem,1.8vw,0.95rem)] font-bold uppercase leading-snug tracking-wide sm:mt-1.5">
             There Is Nothing More Fair Which Promotes Equality More Than Products That Do It All for You. M.D.
