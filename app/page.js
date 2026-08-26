@@ -3,6 +3,7 @@ import FeaturesGridSection from "./Cx/FeaturesGridSection";
 import FlyerDesignSection from "./Cx/FlyerDesignSection";
 import Footer from "./Cx/Footer";
 import GovernmentTechSection from "./Cx/GovernmentTechSection";
+import GovTextAdditionSection from "./Cx/GovTextAdditionSection";
 import Hero from "./Cx/Hero";
 import JoinMovementCTA from "./Cx/JoinMovementCTA";
 import ProblemGovSection from "./Cx/ProblemGovSection";
@@ -25,6 +26,7 @@ export default function Home() {
         <BuiltFutureSection />
         <ProblemGovSection />
         <JoinMovementCTA />
+        <GovTextAdditionSection />
         <Footer />
       </div>
     </div>
