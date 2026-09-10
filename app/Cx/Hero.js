@@ -10,9 +10,6 @@ const PANEL_HEADING =
 const PANEL_BODY =
   "text-sm font-normal leading-relaxed text-white/95 drop-shadow-[0_2px_8px_rgba(0,0,0,0.65)] sm:text-base lg:text-[1.05rem] lg:leading-relaxed";
 
-const HERO_BODY =
-  "text-sm font-normal leading-relaxed text-white/95 drop-shadow-[0_2px_12px_rgba(0,0,0,0.75)] sm:text-base md:text-lg md:leading-relaxed";
-
 const CRYPTO_TITLE =
   "bg-linear-to-r from-neutral-300 via-white to-neutral-400 bg-clip-text text-center font-bold tracking-wide text-transparent drop-shadow-[0_2px_10px_rgba(255,255,255,0.25)]";
 
@@ -72,11 +69,18 @@ export default function Hero() {
 
           <div className="grid w-full grid-cols-1 items-center gap-6 md:grid-cols-[1fr_auto_1fr] md:gap-8 lg:gap-10">
             <div className={`${PANEL_BASE} order-2 h-full md:order-1`}>
-              <h3 className={PANEL_HEADING}>GOVERNMENT</h3>
+              <h3 className={PANEL_HEADING}>YOU DECIDE PARTY</h3>
+              <p className={`${PANEL_BODY} mb-2 font-medium`}>
+                IF YOU WANT CHANGES - YOU HAVE TO PARTICIPATE IN DECISION MAKING
+                PROCESS
+              </p>
+              <p className={`${PANEL_BODY} mb-3 font-bold tracking-wide`}>
+                ITS EASY
+              </p>
               <ul className={`${PANEL_BODY} space-y-1`}>
-                <li>FAIR VOTING SYSTEM</li>
+                <li>FAIR VOTING SYSTEM &amp; VOTER SOFTWARE</li>
                 <li>FAIR TAXATION</li>
-                <li>STRONG CRYPTO</li>
+                <li>STRONG CRYPTO CURRENCY</li>
                 <li>HEALTHCARE</li>
                 <li>EDUCATION</li>
                 <li>LAWS-CRIME</li>
@@ -106,10 +110,15 @@ export default function Hero() {
             </div>
 
             <div className={`${PANEL_BASE} order-3 h-full`}>
-              <h3 className={PANEL_HEADING}>MD ONE FOR ALL PRODUCTS ON WEBSITE</h3>
+              <h3 className={PANEL_HEADING}>
+                MD ONE FOR ALL PRODUCTS &amp; SYSTEMS ON WEBSITE
+              </h3>
               <ul className={`${PANEL_BODY} space-y-1.5`}>
-                <li>3D PRINTER/RECYCLER &amp; SOFTWARE-PRODUCE ALL PRODUCTS</li>
-                <li>FOOD FOR ALL DIETS-PROTEIN MATERIAL FOR ALL PRODUCTS</li>
+                <li>
+                  3D PRINTER/RECYCLER &amp; SOFTWARE- PRODUCE ALL PRODUCTS
+                </li>
+                <li>FOOD FOR ALL DIETS-PROTEIN</li>
+                <li>MATERIAL FOR ALL PRODUCTS</li>
                 <li>ENERGY-GRAVITY MOTOR-ITS EVERYWHERE FREE</li>
                 <li>
                   FLYERS FOR ALL TRANSPORTATION -NO INFRASTRUCTURE JUST AIR
@@ -121,20 +130,46 @@ export default function Hero() {
             </div>
           </div>
 
-          <p className={`${HERO_BODY} mx-auto max-w-4xl text-center`}>
-            USING STABLE VALUABLE MD CRYPTO CURRENCY BASED ON INTELLIGENT,
-            EFFICIENT, GOOD PRODUCTS AND INTELLIGENT, EFFICIENT, GOOD
-            GOVERNMENT FOR PURCHASING AND SELLING POWER. NOT ON FALSE PROMISES
-            AND FALSE VALUES LIKE GOLD AND PURSUIT OF REAL HAPPINESS
-          </p>
+          <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2 md:gap-8 lg:gap-10">
+            <div className={`${PANEL_BASE} h-full`}>
+              <p className={`${PANEL_BODY} text-left`}>
+                IN THE BEGINNING AND FORMATION OF THIS COUNTRY WE NEEDED
+                REPRESENTATIVES POLITICIANS TO MEET, GATHER AND DISCUSS ALL
+                ISSUES AND WHATS GOOD FOR A FREE AND DEMOCRATIC SOCIETY THE
+                COUNTRY IN ONE PERMANENT LOCATION BECAUSE THEY DIDN&apos;T HAVE
+                AUTOMOBILES, AIRPLANES, TELEPHONES OR ANY OTHER WIRELESS
+                COMMUNICATIONS. THE PEOPLE WERE TOO BUSY PROVIDING FOR THEMSELVES
+                WITH FOOD AND SHELTER. THE GOVERNMENT NEEDED PEOPLE TO MAN THE
+                FORT AND MAKE QUICK SERIOUS DECISIONS WHEN NECESSARY. ALL THEY
+                HAD WAS A HORSE AND BUGGY TO TRAVEL AND GATHER. 250 YEARS LATER
+                WE HAVE ALL THE HI-TECHNOLOGY AVAILABLE FOR LIVING COMFORTABLY,
+                INTERNET, WIRELES COMMUNICATION, AIRPLANES, AUTOMOBILES, AI
+                MULTIFUNCTIONAL AND FLEXIBLE AS WELL AS DURABLE APPLIANACES AND
+                PRODUCTS TO LIVE, GATHER AND COMMUNICATE BUT OUR SYSTEM OF VOTING
+                IS STILL THE SAME. ITS OUTDATED. SOMEONE ELSE WILL ALWAYS MAKE
+                ALL THE DECISIONS DESPITE ALL THAT TECHNOLOGY. THE
+                REPRESENTATIVES. YOU SHOULD MAKE MORE DECISIONS IF YOU WANT
+                CHANGES.
+              </p>
+            </div>
 
-          <p className={`${HERO_BODY} mx-auto max-w-4xl text-center`}>
-            TRUE FREEDOM, HI-TECH INTELLIGENT PRODUCTS, HEALTHY FOODS &amp;
-            LIFESTYLES, AND FINALLY GOOD, EFFICIENT FAIR GOVERNMENT AND VOTING
-            PROCESS — NOT USELESS RARE METALS LIKE GOLD BASED ONLY ON RARITY.
-            USING STABLE VALUABLE MD CURRENCY FOR PURCHASING &amp; SELLING
-            POWER.
-          </p>
+            <div className={`${PANEL_BASE} flex h-full flex-col gap-4 text-left`}>
+              <p className={PANEL_BODY}>
+                USING STABLE VALUABLE MD CRYPTO CURRENCY BASED ON INTELLIGENT,
+                EFFICIENT, GOOD PRODUCTS AND INTELLIGENT, EFFICIENT, GOOD
+                GOVERNMENT FOR PURCHASING AND SELLING POWER. NOT ON FALSE
+                PROMISES AND FALSE VALUES LIKE GOLD. FOR PURSUIT OF REAL
+                HAPPINESS.
+              </p>
+              <p className={PANEL_BODY}>
+                TRUE FREEDOM, HI-TECH INTELLIGENT PRODUCTS, HEALTHY FOODS &amp;
+                LIFESTYLES, AND FINALLY GOOD, EFFICIENT FAIR GOVERNMENT AND
+                VOTING PROCESS. NOT USELESS RARE METALS LIKE GOLD BASED ONLY ON
+                RARITY. USING STABLE VALUABLE MD CURRENCY FOR PURCHASING &amp;
+                SELLING POWER.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
