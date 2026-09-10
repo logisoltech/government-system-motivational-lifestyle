@@ -16,7 +16,7 @@ const ACTIONS = [
 ];
 
 const ACTION_SOLID =
-  "inline-flex items-center justify-center whitespace-nowrap rounded-full bg-[#d4af37] px-4 py-2 text-xs font-bold tracking-wide text-black shadow-lg transition hover:bg-[#e2bf49] lg:px-5 lg:text-sm";
+  "inline-flex items-center justify-center whitespace-nowrap rounded-full bg-[#d4af37] px-4 py-2 text-sm font-bold leading-none tracking-wide text-black shadow-lg transition hover:bg-[#e2bf49] lg:px-5 lg:text-base";
 const ACTION_OUTLINE =
   "inline-flex items-center justify-center whitespace-nowrap rounded-full bg-[#d4af37] px-4 py-2 text-xs font-bold tracking-wide text-black shadow-lg transition hover:bg-[#e2bf49] lg:px-5 lg:text-sm";
 
