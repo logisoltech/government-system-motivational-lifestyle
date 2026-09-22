@@ -16,6 +16,9 @@ const CRYPTO_TITLE =
 function UpsideDownPyramid() {
   return (
     <div className="my-3 flex flex-col items-center gap-2">
+      <p className="text-center text-sm font-black uppercase tracking-[0.14em] text-white sm:text-base">
+        -PRESENT FINANCING SYSTEM-
+      </p>
       <p className="text-center text-xs font-bold uppercase tracking-[0.14em] text-white sm:text-sm">
         Upside Down Pyramid Danger
       </p>
@@ -131,7 +134,7 @@ export default function Hero() {
               CRYPTO CURRENCY WHERE EVERYONE HAS AN OPPORTUNITY TO ADVANCE AND
               PROFIT.
               <span className="mt-2 block font-medium text-white">
-                -FINANCING WILL BE AVAILABLE (PLACE ON ALL PRODUCTS)
+                -FINANCING WILL BE AVAILABLE
               </span>
             </p>
           </div>
@@ -216,7 +219,7 @@ export default function Hero() {
                 IN THE BEGINNING AND FORMATION OF THIS COUNTRY WE NEEDED
                 REPRESENTATIVES POLITICIANS TO MEET, GATHER AND DISCUSS ALL
                 ISSUES AND WHATS GOOD FOR A FREE AND DEMOCRATIC SOCIETY WHERE THE
-                COUNTRY IN ONE PERMANENT LOCATION BECAUSE THEY DIDN&apos;T HAVE
+                COUNTRY HAD ONE PERMANENT LOCATION BECAUSE THEY DIDN&apos;T HAVE
                 AUTOMOBILES, AIRPLANES, TELEPHONES OR ANY OTHER WIRELESS
                 COMMUNICATIONS. THE PEOPLE WERE TOO BUSY PROVIDING FOR THEMSELVES
                 WITH FOOD AND SHELTER. THE GOVERNMENT NEEDED PEOPLE TO MAN THE

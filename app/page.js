@@ -6,6 +6,7 @@ import GovernmentTechSection from "./Cx/GovernmentTechSection";
 import GovTextAdditionSection from "./Cx/GovTextAdditionSection";
 import Hero from "./Cx/Hero";
 import JoinMovementCTA from "./Cx/JoinMovementCTA";
+import PertinentInfoSection from "./Cx/PertinentInfoSection";
 import ProblemGovSection from "./Cx/ProblemGovSection";
 import ProjectIntroBar from "./Cx/ProjectIntroBar";
 
@@ -27,6 +28,7 @@ export default function Home() {
         <ProblemGovSection />
         <JoinMovementCTA />
         <GovTextAdditionSection />
+        <PertinentInfoSection />
         <Footer />
       </div>
     </div>
