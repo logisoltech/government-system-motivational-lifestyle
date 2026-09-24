@@ -212,7 +212,7 @@ export default function GovTextAdditionSection() {
           ))}
         </div>
 
-        <div className="mt-10 rounded-2xl border border-neutral-200 bg-neutral-50 p-5 text-center sm:mt-12 sm:p-8">
+        {/* <div className="mt-10 rounded-2xl border border-neutral-200 bg-neutral-50 p-5 text-center sm:mt-12 sm:p-8">
           <p className="text-sm font-bold uppercase leading-relaxed tracking-wide text-neutral-900 sm:text-base">
             MORE PERTINENT INFORMATION ON OUR EXISTING SYSTEMS OF GOVERNMENT,
             CURRENCY, ECONOMY, HEALTH, LAWS AND IF MD LIFESTYLE AND PRODUCTS
@@ -225,7 +225,7 @@ export default function GovTextAdditionSection() {
             WITH YOUR INSIGHT, COMMENTS AND SUGGESTIONS FOR BETTER GOVERNMENT
             AND SOCIETY. CREATE A COMMENT PAGE.
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

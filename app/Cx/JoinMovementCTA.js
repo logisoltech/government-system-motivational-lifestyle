@@ -8,7 +8,7 @@ export default function JoinMovementCTA() {
           One people. One system. One future.
         </p>
         <p className="mt-4 max-w-2xl text-sm leading-relaxed text-red-600 sm:text-base">
-          Empowering youth. Strengthening democracy.
+          Empowering youth, Strengthening democracy.
         </p>
         {/* <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
           <a
