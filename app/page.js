@@ -27,8 +27,8 @@ export default function Home() {
         <BuiltFutureSection />
         <ProblemGovSection />
         <JoinMovementCTA />
-        <GovTextAdditionSection />
         <PertinentInfoSection />
+        <GovTextAdditionSection />
         <Footer />
       </div>
     </div>

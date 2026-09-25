@@ -18,7 +18,7 @@ export default function FeaturesGridSection() {
           className="flex scroll-mt-28 flex-col rounded-2xl border-2 border-[#b91c1c]/65 bg-white p-5 shadow-md sm:p-6"
         >
           <h2 className="text-lg font-black uppercase tracking-wide text-[#991b1b] sm:text-xl">
-            Voting system
+            Voting system & software
           </h2>
           <div className="relative mt-4 aspect-video w-full overflow-hidden rounded-xl bg-neutral-100">
             <Image
@@ -37,18 +37,19 @@ export default function FeaturesGridSection() {
               </li>
             ))}
           </ul>
-          <div className="mt-6 space-y-3 rounded-xl border border-neutral-200 bg-white p-4 text-sm leading-relaxed text-neutral-700">
-            <p className="flex items-start gap-2 font-semibold text-neutral-900">
-              <span className="mt-0.5 rounded bg-[#fef2f2] p-1.5">
-                <Landmark className="size-4 text-[#b91c1c]" aria-hidden />
-              </span>
-              Roman empire plebiscites — precedent for mass participation on decisive issues.
+          <div className="mt-5 space-y-2 rounded-xl border border-neutral-200 bg-white p-3 text-[0.7rem] leading-snug text-neutral-800 sm:text-xs sm:leading-relaxed">
+            <p>
+              OUR VOTER SOFTWARE THAT WE ARE DEVELOPING WILL MAKE IT EASIER TO
+              VOTE RIGHT IN THE COMFORT OF YOUR OWN HOME JUST BY USING YOUR
+              COMPUTER AND OUR UNIQUE HI-TECH FRAUD PROOF WEBSITE. NO WORRIES
+              ABOUT IDENTITY OR ILLEGAL VOTERS TO INSURE ELECTED OFFICIALS OR
+              REPRESENTATIVES OR ADVISERS ARE ELECTED WITH THE CORRECT NUMBER
+              OF VOTES.
             </p>
-            <p className="flex items-start gap-2 font-semibold text-neutral-900">
-              <span className="mt-0.5 rounded bg-[#fef2f2] p-1.5">
-                <Scale className="size-4 text-[#b91c1c]" aria-hidden />
-              </span>
-              Public voting on important issues — everyone can weigh in when it matters.
+            <p className="font-semibold text-neutral-900">
+              WE WANT YOU TO DECIDE ON MOST OF OUR ISSUES. THAT&apos;S WHAT THE
+              YOU DECIDE PARTY AND ITS MD CURRENCY, LIFESTYLE AND PRODUCTS
+              STANDS FOR.
             </p>
           </div>
         </article>
