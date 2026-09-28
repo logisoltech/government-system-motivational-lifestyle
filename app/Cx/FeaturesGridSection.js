@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Building2, Check, Cpu, FlaskConical, Landmark, Scale } from "lucide-react";
+import UpsideDownPyramid from "./UpsideDownPyramid";
 
 const VOTING_CHECKS = [
   "Internet & devices",
@@ -37,7 +38,21 @@ export default function FeaturesGridSection() {
               </li>
             ))}
           </ul>
-          <div className="mt-5 space-y-2 rounded-xl border border-neutral-200 bg-white p-3 text-[0.7rem] leading-snug text-neutral-800 sm:text-xs sm:leading-relaxed">
+          <div className="mt-6 space-y-3 rounded-xl border border-neutral-200 bg-white p-4 text-sm leading-relaxed text-neutral-700">
+            <p className="flex items-start gap-2 font-semibold text-neutral-900">
+              <span className="mt-0.5 rounded bg-[#fef2f2] p-1.5">
+                <Landmark className="size-4 text-[#b91c1c]" aria-hidden />
+              </span>
+              Roman empire plebiscites — precedent for mass participation on decisive issues.
+            </p>
+            <p className="flex items-start gap-2 font-semibold text-neutral-900">
+              <span className="mt-0.5 rounded bg-[#fef2f2] p-1.5">
+                <Scale className="size-4 text-[#b91c1c]" aria-hidden />
+              </span>
+              Public voting on important issues — everyone can weigh in when it matters.
+            </p>
+          </div>
+          <div className="mt-4 space-y-2 rounded-xl border border-neutral-200 bg-white p-3 text-[0.7rem] leading-snug text-neutral-800 sm:text-xs sm:leading-relaxed">
             <p>
               OUR VOTER SOFTWARE THAT WE ARE DEVELOPING WILL MAKE IT EASIER TO
               VOTE RIGHT IN THE COMFORT OF YOUR OWN HOME JUST BY USING YOUR
@@ -86,12 +101,12 @@ export default function FeaturesGridSection() {
             Value tied to real hi-tech productivity, wellbeing, and learning — currency that reflects
             usefulness and outcomes, not abstract scarcity alone.
           </p>
-          <div className="mt-auto flex flex-wrap gap-3 pt-6">
+          <div className="mt-auto flex flex-col gap-2.5 pt-6">
             {["AI-guided products", "Scientific education", "Healthy routines", "Practical tools"].map(
               (t) => (
                 <span
                   key={t}
-                  className="inline-flex items-center gap-1.5 rounded-full border border-[#15803d]/35 bg-emerald-50 px-3 py-1.5 text-[0.7rem] font-semibold uppercase tracking-wide text-emerald-900"
+                  className="inline-flex w-full items-center justify-center gap-1.5 rounded-full border border-[#15803d]/35 bg-emerald-50 px-3 py-2 text-[0.7rem] font-semibold uppercase tracking-wide text-emerald-900"
                 >
                   <Cpu className="size-3.5" aria-hidden /> {t}
                 </span>
@@ -149,6 +164,10 @@ export default function FeaturesGridSection() {
                 ),
               )}
             </div>
+          </div>
+
+          <div className="mt-4 rounded-xl border border-amber-200 bg-amber-50/40 p-4">
+            <UpsideDownPyramid tone="light" className="my-0" />
           </div>
 
           <p className="mt-6 flex items-start gap-3 rounded-xl border border-amber-100 bg-amber-50 px-4 py-3 text-sm font-semibold leading-snug text-amber-950">
