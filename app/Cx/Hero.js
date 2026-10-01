@@ -169,8 +169,13 @@ export default function Hero() {
                 PEOPLE ARE HAPPY WITH, REPRESENTATIVES SHOULD MAKE THE
                 DECISIONS. THAT MEANS PEOPLE DON&apos;T CARE. AGAIN IN
                 PRESIDENTIAL ELECTIONS 50%-60% OF PEOPLE VOTE. IF IT FALLS BELOW A
-                CERTAIN PERCENTAGE, REPRESENTATIVES SHOULD DECIDE. YOU DECIDE.
-                YOU SHOULD MAKE MORE DECISIONS IF YOU WANT CHANGES.
+                CERTAIN PERCENTAGE, REPRESENTATIVES SHOULD DECIDE.
+                <span className="mt-3 block font-black tracking-wide">
+                  YOU DECIDE.
+                </span>
+                <span className="mt-2 block">
+                  YOU SHOULD MAKE MORE DECISIONS IF YOU WANT CHANGES.
+                </span>
               </p>
             </div>
 
